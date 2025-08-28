@@ -16,8 +16,7 @@ A **SQL-first** analysis of NBA team trends, back-to-back (B2B) effects, clutch-
 │  ├─ B2b Wins.sql
 │  ├─ Clutch players.sql
 │  └─ Draft value.sql
-├─ exports/                      # Exported CSVs / charts from your SQL tool
-│ NBA Performance Analytics.docx
+├─ NBA Performance Analytics.docx                    
 └─ README.md
 ```
 
