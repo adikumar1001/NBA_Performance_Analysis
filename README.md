@@ -71,20 +71,6 @@ The narrative report with methods, schema notes, and confirmed results is in **`
 
 ---
 
-## 📈 Example Outputs to Include
-- Top-5 teams by **season win%** (table or bar chart). fileciteturn1file4  
-- **Avg Pts For/Against** by team-season (scatter or two bars). fileciteturn1file0  
-- **Win% B2B vs Rest** with delta. fileciteturn1file1  
-- **Top 25 Clutch Scorers** (PPG), min 10 clutch games. fileciteturn1file2  
-- **Draft Tier vs Avg Seasons Played** (bar chart). fileciteturn1file3  
-
-> Drop screenshots in `/images/` and reference them here, e.g.:
-> ```md
-> ![B2B vs Rest Win%](images/b2b_winpct.png)
-> ```
-
----
-
 ## ✅ QA & Repro Tips
 - Sanity-check winners: `pts_home` vs `pts_away` should match computed win flags. fileciteturn1file5  
 - Ensure **join key types** match; cast to TEXT when necessary for `player_id`. fileciteturn1file2  
